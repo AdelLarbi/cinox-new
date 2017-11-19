@@ -31,18 +31,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="module-library">
-      <library>
+      <library name="Maven: com.common.api:api-common:2.1">
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/api-common-2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/api-common-2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: com.allocine.api:api-allocine-cinex:1.0">
         <CLASSES>

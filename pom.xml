@@ -17,6 +17,14 @@
         </dependency>
 
         <dependency>
+            <groupId>com.common.api</groupId>
+            <artifactId>api-common</artifactId>
+            <version>2.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/api-common-2.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
             <groupId>com.allocine.api</groupId>
             <artifactId>api-allocine-cinex</artifactId>
             <version>1.0</version>
