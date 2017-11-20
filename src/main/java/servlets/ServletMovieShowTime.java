@@ -1,7 +1,7 @@
 package servlets;
 
-import com.moviejukebox.allocine.AllocineException;
-import com.moviejukebox.allocine.cinox.CinoxApi;
+//import com.moviejukebox.allocine.AllocineException;
+//import com.moviejukebox.allocine.cinox.CinoxApi;
 import org.json.JSONArray;
 
 import javax.servlet.ServletException;
@@ -20,16 +20,16 @@ public class ServletMovieShowTime extends HttpServlet {
         response.setContentType("application/json");
         PrintWriter out = response.getWriter();
 
-        CinoxApi cinoxApi = new CinoxApi();
+        //CinoxApi cinoxApi = new CinoxApi();
 
         // uncomment to see the difference
         // CinoxApi.DEBUG = 1;
         JSONArray ja = null;
-        try {
+        /*try {
             ja = cinoxApi.requestMovieList(30);
         } catch (AllocineException e) {
             e.printStackTrace();
-        }
+        }/
 
         System.out.println("Movielist:\n");
 

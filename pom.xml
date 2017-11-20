@@ -16,7 +16,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.common.api</groupId>
             <artifactId>api-common</artifactId>
             <version>2.1</version>
@@ -30,7 +30,7 @@
             <version>1.0</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/api-allocine-cinox-16112017.jar</systemPath>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>javax.servlet</groupId>

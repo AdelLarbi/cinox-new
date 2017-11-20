@@ -1,7 +1,7 @@
 package servlets;
 
-import com.moviejukebox.allocine.AllocineException;
-import com.moviejukebox.allocine.cinox.CinoxApi;
+//import com.moviejukebox.allocine.AllocineException;
+//import com.moviejukebox.allocine.cinox.CinoxApi;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -29,18 +29,18 @@ public class ServletShowTime extends HttpServlet {
         String movieTitle = jsonObj.optString("title", "N/A");
         int zoneCode = jsonObj.optInt("code", -1);
 
-        CinoxApi cinoxApi = new CinoxApi();
+        //CinoxApi cinoxApi = new CinoxApi();
 
         // uncomment to see the difference
         // CinoxApi.DEBUG = 2;
         JSONArray ja;
         JSONArray adaptedJa = null;
-        try {
+        /*try {
             ja = cinoxApi.requestShowtimeList(movieTitle, String.valueOf(zoneCode));
             adaptedJa = cinoxApi.adaptShowtimeList(ja);
         } catch (AllocineException e) {
             e.printStackTrace();
-        }
+        }*/
 
         /*if (adaptedJa != null && adaptedJa.length() > 0) {
             System.out.println("movieTitle = \"" + movieTitle + "\", zoneCode = \"" + zoneCode + "\"\n");
