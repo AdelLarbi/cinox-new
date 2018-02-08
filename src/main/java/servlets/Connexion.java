@@ -18,7 +18,7 @@ public class Connexion extends HttpServlet {
     public static final String ATT_FORM = "form";
     public static final String ATT_SESSION_USER = "sessionUtilisateur";
     public static final String VUE = "/index.jsp";
-    public static final String VUE_FRONTPAGE = "/WEB-INF/dashboard2.jsp";
+    public static final String VUE_FRONTPAGE = "/WEB-INF/dashboard1.jsp";
 
     /**
      * Methode de servlet qui gère les requetes Get du client pour la connexion.

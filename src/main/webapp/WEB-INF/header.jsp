@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#">Profil</a>
                 </li>
             </ul>
-            <!-- <form class="form-inline mt-2 mt-md-0"  method="post" action="dashboard2.jsp"> -->
+            <!-- <form class="form-inline mt-2 mt-md-0"  method="post" action="dashboard1.jsp"> -->
   <!--          <input id = "search" name="submitsearch" vclass="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             <button id ="submitsearch" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 -->
@@ -150,18 +150,18 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-
 <!-- TODO mettre <a></a> pour faire appel au code de la creation d'evenement ou passer par AJAX-->
 
-
-
+<!-- Ad -->
+<!--<script charset='UTF-8' src='http://localhost:3000' type='text/javascript'></script>-->
+<script charset='UTF-8' src='https://cinox-dar.herokuapp.com' type='text/javascript'></script>
 
 <div class="banderole">
     <span href="#" class="recommendation"> Top</span>
     <h3> Créer Evénements </h3>
     <p> Vous voulez aller au cinéma mais pas seul ? Cliquer ici</p>
     <!--<a href="event.html"></a>-->
-    <button id="event" type="button">Aller voir un film !</button>
+    <!--<button id="event" type="button">Aller voir un film !</button>-->
 </div>
 
 <script>
@@ -169,6 +169,7 @@
         //window.location.href='event.html';
         alert('hello');
     });
+
 </script>
 
 
