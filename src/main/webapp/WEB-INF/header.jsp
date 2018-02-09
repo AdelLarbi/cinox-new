@@ -152,7 +152,7 @@
 
 <!-- TODO mettre <a></a> pour faire appel au code de la creation d'evenement ou passer par AJAX-->
 
-<!-- Ad -->
+<!-- Insert Advertisement image -->
 <!--<script charset='UTF-8' src='http://localhost:3000' type='text/javascript'></script>-->
 <script charset='UTF-8' src='https://cinox-dar.herokuapp.com' type='text/javascript'></script>
 
@@ -163,14 +163,6 @@
     <!--<a href="event.html"></a>-->
     <!--<button id="event" type="button">Aller voir un film !</button>-->
 </div>
-
-<script>
-    $("#event").click(function() {
-        //window.location.href='event.html';
-        alert('hello');
-    });
-
-</script>
 
 
 </header>
